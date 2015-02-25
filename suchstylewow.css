@@ -16,6 +16,8 @@ body {
 	text-align:center;
 	opacity:1.0;	
 	letter-spacing:4px;
+	min-width:400px;
+
 }
 
 .main p{
@@ -42,7 +44,8 @@ body {
 
 .navcontainer {
 	/* background-color:#FCFED3; */
-	background-color:rgb(163,229,211);
+	/* background-color:rgb(163,229,211); */
+	background-color:rgb(140,223,201);
 	margin:0px;
 	padding:0px;
 	width:100%;
@@ -80,12 +83,14 @@ body {
 .navbar li{
 	text-align:center;
 	float: left;
-	text-shadow: 1px 1px rgb(69,203,166);
+	text-shadow: 1px 1px rgb(50,175,141);
 	/* border-right: 1px solid red; */
 	/* border-left: 1px solid red; */
 	margin:0px;
 	padding:0px;
 	width:20%;
+		overflow: hidden;
+
 }
 	
 .navbar a{
@@ -118,6 +123,6 @@ body {
 	/* height:auto; */
 	/* left:100; */
 	/* bottom:20px; */
-	top:300px;
+	top:235px;
 	/* visibility: hidden; */
 }
